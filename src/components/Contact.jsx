@@ -1,8 +1,10 @@
 import React from "react";
-import { CONTACT } from "../constants";
+import { useTranslation } from "react-i18next"; // Import the useTranslation hook
 import { motion } from "framer-motion";
 
 const Contact = () => {
+  const { t } = useTranslation(); // Access the translation function
+
   return (
     <div className="border-b border-neutral-900 pb-20">
       <motion.h2
@@ -11,7 +13,7 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="my-10 text-center text-4xl"
       >
-        Get in Touch
+        {t('contact.get_in_touch')} {/* Get translation for "Get in Touch" */}
       </motion.h2>
       <div className="text-center tracking-tighter">
         <motion.p
@@ -20,7 +22,7 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          {CONTACT.address}
+          {t('contact.address')} {/* Get translation for address */}
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
@@ -28,10 +30,10 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          {CONTACT.phoneNo}
+          {t('contact.phone_no')} {/* Get translation for phone number */}
         </motion.p>
-        <a href="#" className="border-b">
-          {CONTACT.email}
+        <a href={`mailto:${t('contact.email')}`} className="border-b">
+          {t('contact.email')} {/* Get translation for email */}
         </a>
       </div>
     </div>

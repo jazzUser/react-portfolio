@@ -1,0 +1,138 @@
+{
+    "hero_name": "Jasmina Muharemovic",
+    "hero_role": "Full Stack Developer",
+    "hero_content": "I am a Full Stack Developer with solid experience in frontend and backend development. My strengths include building REST APIs with Kotlin and Spring Boot, as well as developing frontend solutions using React.js and JavaScript. In addition to my work with modern web technologies, I have gained initial experience with Docker and Kubernetes. I am fluent in Croatian, German, and English and appreciate working in multicultural teams. Currently, I am focused on developing innovative and scalable applications that meet user needs. Born in Berlin, with Bosnian roots and Croatian citizenship, I have been living back in Germany for eight years. This international perspective shapes my approach and fosters creative, solution-oriented work.",
+    "about_title": "About",
+    "about_me": "Me",
+    "about_img_alt": "Jasmina Muharemovic",
+    "about_text": "I started my career as a Fullstack trainee and gained valuable experience with technologies such as Kotlin, Spring Boot, React.js, and Docker. Later, I worked in SAP Security Management, where I became deeply involved with databases and developing frontend solutions using Angular. My professional journey has familiarized me with numerous tools and technologies, including Git and Azure DevOps. I am particularly excited about working on frontend and full-stack projects, where I can bring my diverse experience to create user-centered, scalable solutions. When I'm not coding, I regularly keep up with the latest technology trends and participate in lectures.",
+    "language_tooltip": "Change language",
+    "experience": {
+      "experience": "Experience",
+      "experiences": [
+        {
+          "year": "07/2023 - 02/2024",
+          "role": "Security Application Developer",
+          "company": "Asconsit GmbH, Lüneburg",
+          "description": "I worked in the SAP Security Management field, managing SQL databases and ensuring system integrity. Additionally, I contributed to the development of an SAP frontend with Angular and helped create efficient, user-friendly applications.",
+          "technologies": [
+            "SAP-Security-Management",
+            "SQL",
+            "Angular",
+            "JavaScript"
+          ]
+        },
+        {
+          "year": "05/2021 - 11/2022",
+          "role": "Fullstack Web Application Development Intern",
+          "company": "Novatec GmbH, Berlin",
+          "description": "As a Fullstack trainee, I developed REST API applications with Spring Boot, Kotlin, and React.js. I worked on two projects: One being a microservice in Spring Boot, where I mainly worked with React, and the other a performance tool, which also involved React.",
+          "technologies": [
+            "Kotlin",
+            "Spring Boot",
+            "React.js",
+            "Docker",
+            "Git"
+          ]
+        },
+        {
+          "year": "05/2019 - 08/2019",
+          "role": "Waitress",
+          "company": "Stern und Kreisschiffahrt GmbH, Berlin",
+          "description": "I worked as a waitress, initially full-time to support myself financially, and later part-time (minijob) while pursuing my career as a developer.",
+          "technologies": [
+            "Communication",
+            "Work Ethic",
+            "Patience",
+            "Adaptability"
+          ]
+        },
+        {
+          "year": "01/2019 - 04/2019",
+          "role": "Commis de Rang (Waiter)",
+          "company": "Das Kranzbach Hotel ****s, Krün (Bavaria)",
+          "description": "I provided excellent customer service in a high-end hotel restaurant, ensured guest satisfaction, and ensured smooth execution of the dining experience.",
+          "technologies": [
+            "Communication",
+            "Work Ethic",
+            "Patience",
+            "Adaptability"
+          ]
+        }
+      ]
+    },
+    
+    "projects_title": "Projects",
+    "projects": {
+      "quarkus_project": {
+        "title": "School Management System",
+        "description": "The School Management System is a Quarkus-based backend with PostgreSQL that manages participants and training sessions. It allows users to enroll participants in specific courses through RESTful endpoints, streamlining participant and course management.",
+        "image": "/assets/projects/project-1.jpg",
+        "technologies": [
+          "Quarkus",
+          "Kotlin",
+          "PostgreSQL",
+          "Docker",
+          "Vue.js"
+        ]
+      },
+      "pwa_application": {
+        "title": "PWA Application",
+        "description": "A simple, lightweight app with a header and a navigation bar. It offers offline functionality, allowing users to download and use the app without an active internet connection, providing a smooth experience even without internet access. The app is responsive for both mobile and desktop, ensuring optimal functionality across various screen sizes.",
+        "image": "/assets/projects/project-2.jpg",
+        "technologies": [
+          "HTML",
+          "JavaScript",
+          "Service Workers",
+          "Web App Manifest"
+        ]
+      },
+      "trafic_light_control": {
+        "title": "Traffic Light Control",
+        "description": "A traffic light control system using Java and JPanel, featuring three vehicle traffic lights and two pedestrian lights.",
+        "image": "/assets/projects/project-3.jpg",
+        "technologies": [
+          "Java",
+          "JPanel",
+          "JFrame",
+          "Runnable"
+        ]
+      },
+      "responsive_layout": {
+        "title": "Responsive Layout",
+        "description": "The Responsive Layout project was the final challenge of a 21-day challenge by Kevin Powell, focusing on mastering responsive designs. It demonstrates the skills and techniques learned throughout the challenge, ensuring the layout adapts seamlessly across various screen sizes and devices.",
+        "image": "/assets/projects/project-4.jpg",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "CSS Media Queries",
+          "CSS Flexbox",
+          "CSS Grid"
+        ]
+      }
+    },
+    
+    "contact": {
+      "get_in_touch": "Get in touch",
+      "address": "Vor dem Neuen Tore, Lüneburg",
+      "phone_no": "00491724732204",
+      "email": "jasminamhrmvc@proton.me"
+    },
+    
+    "technologies_title": "Technologies",
+    
+    
+        "technologies": {
+          "React.js": "React.js",
+          "Kotlin": "Kotlin",
+          "Spring Boot": "Spring Boot",
+          "Docker": "Docker",
+          "PostgreSQL": "PostgreSQL",
+          "JavaScript": "JavaScript",
+          "Azure DevOps": "Azure DevOps"
+        },
+
+        "powered_by_react": "Powered by React"
+      
+  }
+  
