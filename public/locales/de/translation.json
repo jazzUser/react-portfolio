@@ -29,8 +29,8 @@
                 "description": "Als Fullstack-Trainee entwickelte ich REST-API-Anwendungen mit Spring Boot, Kotlin und React.js. Dabei habe ich an zwei Projekten mitgearbeitet: Einem Microservice in Spring Boot, bei dem ich vor allem mit React gearbeitet habe, und einem Performance-Tool, bei dem ebenfalls React im Vordergrund stand.",
                 "technologies": [
                     "Kotlin",
-                    "Spring Boot",
-                    "React.js",
+                    "SpringBoot",
+                    "ReactJS",
                     "Docker",
                     "Git"
                 ]
@@ -72,7 +72,7 @@
                 "Kotlin",
                 "PostgreSQL",
                 "Docker",
-                "Vue.js"
+                "VueJS"
             ]
         },
         "pwa_application": {
@@ -118,28 +118,13 @@
     },
     "technologies_title": "Technologien",
     "technologies": {
-        "SAP-Security-Management": "SAP-Security-Management",
-        "SQL": "SQL",
-        "Angular": "Angular",
-        "JavaScript": "JavaScript",
-        "Kotlin": "Kotlin",
-        "Spring-Boot": "Spring Boot",
         "React.js": "React.js",
+        "Kotlin": "Kotlin",
+        "Spring Boot": "Spring Boot",
         "Docker": "Docker",
-        "Git": "Git",
-        "Kommunikation": "Kommunikation",
-        "Arbeitsmoral": "Arbeitsmoral",
-        "Geduld": "Geduld",
-        "Anpassungsfähigkeit": "Anpassungsfähigkeit",
-        "HTML": "HTML",
-        "CSS": "CSS",
-        "Node.js": "Node.js",
-        "MongoDB": "MongoDB",
-        "Firebase": "Firebase",
-        "Bootstrap": "Bootstrap",
-        "Vue.js": "Vue.js",
-        "Express": "Express",
-        "mySQL": "mySQL"
+        "PostgreSQL": "PostgreSQL",
+        "JavaScript": "JavaScript",
+        "Azure DevOps": "Azure DevOps"
     },
     "powered_by_react": "Angetrieben von React"
 }
