@@ -28,7 +28,7 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-4xl"
       >
-        Technologies
+        Technologien
       </motion.h2>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
