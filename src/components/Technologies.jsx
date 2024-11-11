@@ -1,10 +1,11 @@
+import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
-import { SiKotlin, SiDocker, SiSpringboot, SiJavascript, SiAzuredevops } from 'react-icons/si'; // Added JavaScript and Azure DevOps imports
-import { FaGithub } from 'react-icons/fa'; 
+import { SiKotlin, SiDocker, SiSpringboot, SiJavascript, SiAzuredevops } from 'react-icons/si';
+import { useTranslation } from 'react-i18next'; // Import i18n translation hook
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -20,6 +21,8 @@ const iconVariants = (duration) => ({
 });
 
 const Technologies = () => {
+  const { t } = useTranslation(); // Initialize translation function
+
   return (
     <div className="border-neutral-800 pb-24">
       <motion.h2
@@ -28,7 +31,7 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-4xl"
       >
-        Technologien
+        {t('technologies_title')} {/* Use translation key here */}
       </motion.h2>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
@@ -63,7 +66,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiSpringboot className="text-7xl text-green-600" /> {/* Spring Boot green color */}
+          <SiSpringboot className="text-7xl text-green-600" />
         </motion.div>
 
         {/* Docker Icon */}
