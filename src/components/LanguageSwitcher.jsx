@@ -13,13 +13,17 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div role="region" aria-labelledby="language-switcher" className="relative group">
+    <div
+      role="region"
+      aria-labelledby="language-switcher"
+      className="relative group"
+    >
       {/* Language Button with Tooltip */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center justify-center text-2xl w-10 h-10 p-1 hover:bg-gray-100 focus:outline-none transition duration-200 ease-in-out"
-        aria-label={t("language_switcher_button_label")} 
-        id="language-switcher" 
+        aria-label={t("language_switcher_button_label")}
+        id="language-switcher"
       >
         <FaGlobe className="text-xl" />
       </button>
@@ -42,8 +46,8 @@ const LanguageSwitcher = () => {
             onClick={() => handleLanguageChange("en")}
             className="flex items-center w-full text-left px-2 py-1 hover:bg-gray-100 transition duration-200 text-sm"
             aria-label="Change to English"
-            role="menuitem" 
-            tabIndex={0} 
+            role="menuitem"
+            tabIndex={0}
           >
             <span className="mr-2">🇬🇧</span> {t("english")}
           </button>
@@ -51,7 +55,7 @@ const LanguageSwitcher = () => {
             onClick={() => handleLanguageChange("de")}
             className="flex items-center w-full text-left px-2 py-1 hover:bg-gray-100 transition duration-200 text-sm"
             aria-label="Change to German"
-            role="menuitem" 
+            role="menuitem"
             tabIndex={0}
           >
             <span className="mr-2">🇩🇪</span> {t("german")}

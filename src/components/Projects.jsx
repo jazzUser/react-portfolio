@@ -23,14 +23,13 @@ const Projects = () => {
         {t("projects_title")}{" "}
       </motion.h2>
       <div>
-        {Object.keys(projects).map((projectKey) => {
-          const { title, image, description, technologies } =
-            projects[projectKey];
+        {Object.keys(projects).map((projectKey, index) => {
+          const { title, image, description, technologies } = projects[projectKey];
+          
+          // Adjust the heading level for the project title
+          // Make sure it increases incrementally, using h3 for project titles
           return (
-            <div
-              key={projectKey}
-              className="mb-8 flex flex-wrap lg:justify-center"
-            >
+            <div key={projectKey} className="mb-8 flex flex-wrap lg:justify-center">
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
@@ -51,7 +50,8 @@ const Projects = () => {
                 transition={{ duration: 1 }}
                 className="w-full max-w-xl lg:w-3/4"
               >
-                <h6 className="mb-2 font-semibold">{title}</h6>
+                {/* Change from <h6> to <h3> for better heading structure */}
+                <h3 className="mb-2 font-semibold">{title}</h3>
                 <p className="mb-4 text-neutral-400">{description}</p>
                 {technologies.map((tech, index) => (
                   <span

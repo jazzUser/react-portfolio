@@ -13,7 +13,7 @@ const About = () => {
     >
       <h2 id="about-section" className="my-20 text-center text-4xl">
         {t("about_title")}
-        <span className="text-neutral-500"> {t("about_me")}</span>{" "}
+        <span className="text-neutral-500"> {t("about_me")}</span>
       </h2>
       <div className="flex flex-wrap">
         <motion.div
@@ -37,7 +37,7 @@ const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">{t("about_text")}</p>{" "}
+            <p className="my-2 max-w-xl py-6">{t("about_text")}</p>
           </div>
         </motion.div>
       </div>

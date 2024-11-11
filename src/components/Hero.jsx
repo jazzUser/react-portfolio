@@ -17,7 +17,6 @@ const Hero = () => {
       className="border-b border-neutral-900 py-6 px-6 lg:px-16"
     >
       <div className="flex flex-wrap items-start justify-between mx-auto max-w-screen-xl">
-        {/* Text section */}
         <div className="w-full lg:w-1/2 px-4 py-6">
           <motion.h1
             id="hero-title"

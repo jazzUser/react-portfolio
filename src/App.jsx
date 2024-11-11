@@ -7,7 +7,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import './i18n';  // Import the i18n configuration to initialize i18next
+import "./i18n"; // Import the i18n configuration to initialize i18next
 
 const App = () => {
   return (
@@ -18,13 +18,15 @@ const App = () => {
 
       <div className="container mx-auto px-8">
         <Navbar />
-        <Hero />
-        <About />
-        <Technologies />
-        <Experience />
-        <Projects />
-        <Contact />
-        <Footer/>
+        <main role="main">
+          <Hero />
+          <About />
+          <Technologies />
+          <Experience />
+          <Projects />
+          <Contact />
+        </main>
+        <Footer />
       </div>
     </div>
   );
