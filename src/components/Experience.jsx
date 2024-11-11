@@ -5,8 +5,9 @@ const Experience = () => {
   const { t } = useTranslation(); // Access the translation function
 
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div role="region" aria-labelledby="experience-section" className="border-b border-neutral-900 pb-4">
       <motion.h2
+        id="experience-section" // Adding id for correct aria-labelledby reference
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
@@ -33,12 +34,16 @@ const Experience = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">
+              {/* Use h3 instead of h6 to maintain proper heading hierarchy */}
+              <h3 className="mb-2 font-semibold">
                 {t(experience.role)} -{" "}
-                <span className="text-sm text-purple-100">
+                <span
+                  className="text-sm text-purple-100"
+                  aria-label={t(experience.company)} // Adding aria-label for the company name for screen readers
+                >
                   {t(experience.company)} {/* Translate the company */}
                 </span>
-              </h6>
+              </h3>
               <p className="mb-4 text-neutral-400">
                 {t(experience.description)} {/* Use translation for description */}
               </p>

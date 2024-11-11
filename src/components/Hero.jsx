@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next"; // Import the useTranslation hook from react-i18next
+import { useTranslation } from "react-i18next";
 import profilePic from "../../public/assets/profile.jpg";
 import { motion } from "framer-motion";
 
@@ -8,26 +8,31 @@ const container = (delay) => ({
 });
 
 const Hero = () => {
-  const { t } = useTranslation(); // Access the translation function
+  const { t } = useTranslation();
 
   return (
-    <div className="border-b border-neutral-900 py-6 px-6 lg:px-16"> {/* Unified padding */}
+    <div
+      role="banner"
+      aria-labelledby="hero-title"
+      className="border-b border-neutral-900 py-6 px-6 lg:px-16"
+    >
       <div className="flex flex-wrap items-start justify-between mx-auto max-w-screen-xl">
         {/* Text section */}
         <div className="w-full lg:w-1/2 px-4 py-6">
           <motion.h1
+            id="hero-title"
             variants={container(0)}
             initial="hidden"
             animate="visible"
             className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-thin tracking-tight lg:mt-0"
           >
-            {t("hero_name")} {/* Translate the hero name */}
+            {t("hero_name")}
           </motion.h1>
           <motion.span
             variants={container(0.5)}
             initial="hidden"
             animate="visible"
-            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
+            className="bg-gradient-to-r from-pink-600 via-slate-800 to-purple-600 bg-clip-text text-3xl tracking-tight text-transparent"
           >
             {t("hero_role")}
           </motion.span>
@@ -49,7 +54,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1.2 }}
             src={profilePic}
             alt={t("hero_name")}
-            className="w-full lg:w-auto rounded-2xl"  // Add the rounded-2xl class here for rounded corners
+            className="w-full lg:w-auto rounded-2xl" // Add the rounded-2xl class here for rounded corners
           />
         </div>
       </div>

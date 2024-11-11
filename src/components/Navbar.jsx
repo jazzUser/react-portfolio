@@ -4,7 +4,7 @@ import LanguageSwitcher from "../components/LanguageSwitcher";
 
 const Navbar = () => {
   return (
-  <nav className="mb-6 py-6">
+  <nav role="navigation" aria-label="Main navigation" className="mb-6 py-6">
       <div className="flex items-center justify-between px-8">
         
         {/* Language Selector */}

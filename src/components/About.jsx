@@ -1,15 +1,19 @@
-import { useTranslation } from "react-i18next"; // Import the useTranslation hook
+import { useTranslation } from "react-i18next";
 import aboutImg from "../../public/assets/about.jpg";
 import { motion } from "framer-motion";
 
 const About = () => {
-  const { t } = useTranslation(); // Access the translation function
+  const { t } = useTranslation();
 
   return (
-    <div className="border-b border-neutral-900 pb-4">
-      <h2 className="my-20 text-center text-4xl">
-        {t("about_title")} {/* Use the translation key for "About Me" */}
-        <span className="text-neutral-500"> {t("about_me")}</span> {/* Use translation key for "Me" */}
+    <div
+      role="region"
+      aria-labelledby="about-section"
+      className="border-b border-neutral-900 pb-4"
+    >
+      <h2 id="about-section" className="my-20 text-center text-4xl">
+        {t("about_title")}
+        <span className="text-neutral-500"> {t("about_me")}</span>{" "}
       </h2>
       <div className="flex flex-wrap">
         <motion.div
@@ -22,7 +26,7 @@ const About = () => {
             <img
               className="rounded-2xl"
               src={aboutImg}
-              alt={t("about_img_alt")} // Use translation key for image alt text
+              alt={t("about_img_alt")}
             />
           </div>
         </motion.div>
@@ -33,7 +37,7 @@ const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">{t('about_text')}</p> {/* Use t() to get the translation */}
+            <p className="my-2 max-w-xl py-6">{t("about_text")}</p>{" "}
           </div>
         </motion.div>
       </div>
