@@ -7,12 +7,10 @@ const Navbar = () => {
   <nav role="navigation" aria-label="Main navigation" className="mb-6 py-6">
       <div className="flex items-center justify-between px-8">
         
-        {/* Language Selector */}
         <div className="flex items-center space-x-6">
           <LanguageSwitcher />
         </div>
 
-        {/* Social Media Icons */}
         <div className="flex items-center gap-6 text-2xl">
           <a
             href="https://linkedin.com/in/yourProfile"

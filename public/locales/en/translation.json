@@ -66,7 +66,7 @@
         "quarkus_project": {
             "title": "School Management System",
             "description": "The School Management System is a Quarkus-based backend with PostgreSQL that manages participants and training courses. It allows users to register participants for specific courses via RESTful endpoints, streamlining participant and course management.",
-            "image": "/assets/projects/project-1.jpg",
+            "image": "/assets/projects/project-1.avif",
             "technologies": [
                 "Quarkus",
                 "Kotlin",
@@ -78,7 +78,7 @@
         "pwa_application": {
             "title": "PWA Application",
             "description": "A simple, lightweight app with a header and navigation bar. It offers offline functionality, allowing users to download and use the app without an active internet connection. The app is responsive, making it suitable for mobile devices and desktops, adjusting to various screen sizes.",
-            "image": "/assets/projects/project-2.jpg",
+            "image": "/assets/projects/project-2.avif",
             "technologies": [
                 "HTML",
                 "JavaScript",
@@ -89,7 +89,7 @@
         "trafic_light_control": {
             "title": "Traffic Light Control",
             "description": "A traffic light control system using Java and JPanel, featuring three vehicle traffic lights and two pedestrian traffic lights.",
-            "image": "/assets/projects/project-3.jpg",
+            "image": "/assets/projects/project-3.avif",
             "technologies": [
                 "Java",
                 "JPanel",
@@ -100,7 +100,7 @@
         "responsive_layout": {
             "title": "Responsive Layout",
             "description": "The Responsive Layout project was the final challenge of a 21-day challenge from Kevin Powell, focusing on mastering responsive designs. It demonstrates the skills and techniques learned and ensures the layout adapts seamlessly to different screen sizes and devices.",
-            "image": "/assets/projects/project-4.jpg",
+            "image": "/assets/projects/project-4.avif",
             "technologies": [
                 "HTML",
                 "CSS",

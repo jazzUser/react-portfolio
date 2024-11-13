@@ -66,7 +66,7 @@
         "quarkus_project": {
             "title": "Schulverwaltungssystem",
             "description": "Das Schulverwaltungssystem ist ein Quarkus-basiertes Backend mit PostgreSQL, das Teilnehmer und Schulungen verwaltet. Es ermöglicht es Nutzern, Teilnehmer über RESTful-Endpunkte in bestimmte Kurse einzutragen und vereinfacht so das Teilnehmer- und Kursmanagement.",
-            "image": "/assets/projects/project-1.jpg",
+            "image": "/assets/projects/project-1.avif",
             "technologies": [
                 "Quarkus",
                 "Kotlin",
@@ -78,7 +78,7 @@
         "pwa_application": {
             "title": "PWA-Anwendung",
             "description": "Eine einfache, leichte App mit einem Header und einer Navigationsleiste. Sie bietet Offline-Funktionalität, sodass Benutzer die App herunterladen und ohne aktive Internetverbindung verwenden können, was eine reibungslose Nutzung auch ohne Internetzugang ermöglicht. Die App ist sowohl für mobile Geräte als auch für Desktops responsiv, sodass sie auf verschiedenen Bildschirmgrößen optimal funktioniert.",
-            "image": "/assets/projects/project-2.jpg",
+            "image": "/assets/projects/project-2.avif",
             "technologies": [
                 "HTML",
                 "JavaScript",
@@ -89,7 +89,7 @@
         "trafic_light_control": {
             "title": "Ampelsteuerung",
             "description": "Ein Ampelsteuerungssystem mit Java und JPanel, das drei Fahrzeugampeln und zwei Fußgängerampeln umfasst.",
-            "image": "/assets/projects/project-3.jpg",
+            "image": "/assets/projects/project-3.avif",
             "technologies": [
                 "Java",
                 "JPanel",
@@ -100,7 +100,7 @@
         "responsive_layout": {
             "title": "Responsives Layout",
             "description": "Das Responsives Layout-Projekt war die abschließende Herausforderung einer 21-tägigen Herausforderung von Kevin Powell, die sich auf das Beherrschen von responsiven Designs konzentrierte. Es demonstriert die erlernten Fähigkeiten und Techniken und sorgt dafür, dass sich das Layout nahtlos an verschiedene Bildschirmgrößen und Geräte anpasst.",
-            "image": "/assets/projects/project-4.jpg",
+            "image": "/assets/projects/project-4.avif",
             "technologies": [
                 "HTML",
                 "CSS",
