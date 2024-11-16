@@ -13,7 +13,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-6 text-2xl">
           <a
-            href="https://linkedin.com/in/yourProfile"
+            href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -29,7 +29,7 @@ const Navbar = () => {
             <FaGithub />
           </a>
           <a
-            href="https://instagram.com/yourProfile"
+            href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"

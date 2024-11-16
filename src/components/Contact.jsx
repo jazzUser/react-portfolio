@@ -29,14 +29,14 @@ const Contact = () => {
         >
           {t('contact.address')}
         </motion.p>
-        <motion.p
+   {/*      <motion.p
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1 }}
           className="my-4"
         >
           {t('contact.phone_no')}
-        </motion.p>
+        </motion.p> */}
         <a
           href={`mailto:${t('contact.email')}`}
           className="border-b text-neutral-100 hover:text-cyan-300"
