@@ -1,7 +1,7 @@
 {
     "hero_name": "Jasmina Muharemovic",
     "hero_role": "Fullstack Entwicklerin",
-    "hero_image": "/assets/profile.jpg",
+    "hero_image": "/assets/profile.avif",
     "hero_alt":"Profil Bild von Jasmina Muharemovic",
     "hero_content": "Ich bin eine Fullstack-Entwicklerin mit fundierter Erfahrung in der Frontend- und Backend-Entwicklung. Zu meinen Stärken zählen die Erstellung von REST-APIs mit Kotlin und Spring Boot sowie die Entwicklung von Frontend-Lösungen mit React.js und JavaScript. Zusätzlich zu meiner Arbeit mit modernen Webtechnologien habe ich erste Erfahrungen mit Docker und Kubernetes gesammelt. Ich spreche fließend Kroatisch, Deutsch und Englisch und schätze die Arbeit in multikulturellen Teams. Derzeit konzentriere ich mich darauf, innovative und skalierbare Anwendungen zu entwickeln, die den Bedürfnissen der Nutzer gerecht werden. Geboren in Berlin, mit bosnischen Wurzeln und kroatischer Staatsbürgerschaft, lebe ich seit acht Jahren wieder in Deutschland. Diese internationale Perspektive prägt meine Herangehensweise und fördert kreatives, lösungsorientiertes Arbeiten.",
     "about_title": "Über",

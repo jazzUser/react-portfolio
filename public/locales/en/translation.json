@@ -3,7 +3,7 @@
     "hero_role": "Fullstack Developer",
     "hero_alt":"Profil Picture of Jasmina Muharemovic",
     "hero_content": "I am a Fullstack Developer with solid experience in both frontend and backend development. My strengths include creating REST APIs using Kotlin and Spring Boot, as well as developing frontend solutions with React.js and JavaScript. In addition to working with modern web technologies, I have gained initial experience with Docker and Kubernetes. I am fluent in Croatian, German, and English, and I value working in multicultural teams. Currently, I am focused on developing innovative and scalable applications that meet user needs. Born in Berlin, with Bosnian roots and Croatian citizenship, I have been living in Germany again for eight years. This international perspective shapes my approach and encourages creative, solution-oriented work.",
-    "hero_image": "/assets/profile.jpg",
+    "hero_image": "/assets/profile.avif",
     "about_title": "About",
     "about_me": "me",
     "about_img_alt": "Picture of Jasmina Muharemovic in Office",
